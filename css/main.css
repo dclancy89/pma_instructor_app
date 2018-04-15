@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(#B30002, transparent 90%), linear-gradient(0deg, #666, transparent);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25em;
+  text-shadow: 1px 1px 1px black; }
+  body img {
+    width: 45%;
+    height: auto;
+    display: block;
+    margin: auto; }
+
+.first_time {
+  color: #fafafa;
+  text-align: center;
+  font-size: 34px;
+  text-decoration: underline; }
+
+h1, h2, h3 {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black; }
+
+h1 {
+  font-size: 55px; }
+
+h2 {
+  font-size: 50px; }
+
+h3 {
+  font-size: 42px; }
+
+.overlay {
+  position: fixed;
+  display: block;
+  left: 2%;
+  right: 2%;
+  top: 2%;
+  bottom: 2%;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+  border: 4px solid #eee;
+  background-color: #444; }
+  .overlay h3 {
+    margin-left: 50px;
+    text-decoration: underline;
+    font-weight: 900;
+    font-size: 50px; }
+  .overlay p {
+    margin: 30px 35px 0;
+    font-size: 40px;
+    color: #fafafa;
+    text-align: justify;
+    font-weight: 700; }
+  .overlay .confirm-button {
+    width: 225px;
+    height: 100px;
+    padding-top: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center; }
+  .overlay .yes {
+    background-color: green;
+    margin: 10px; }
+  .overlay .no {
+    background-color: red;
+    margin: 10px; }
+
+select {
+  margin: 10px 0;
+  width: 90%;
+  height: 75px;
+  background-color: #DDD;
+  border: 3px solid black;
+  font-size: 2.5em; }
+
+.instructor {
+  width: 50%;
+  display: block;
+  margin: auto; }
+  .instructor p {
+    font-size: 2em;
+    color: #fafafa; }
+
+.rating {
+  width: 80%;
+  display: block;
+  margin: 20px auto 0; }
+  .rating > p {
+    color: #fafafa;
+    font-size: 44px; }
+  .rating ol {
+    font-size: 44px;
+    color: #fafafa; }
+    .rating ol label {
+      color: #fafafa; }
+  .rating input[type="checkbox"] {
+    display: none; }
+  .rating input[type="checkbox"] + span {
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    margin: -2px 10px 0 0;
+    vertical-align: middle;
+    background: url("../img/checkbox-empty.png") left top no-repeat;
+    cursor: pointer; }
+  .rating input[type="checkbox"]:checked + span {
+    background: url("../img/checked-2.png") left top no-repeat; }
+
+.submit {
+  width: 250px;
+  height: 100px;
+  padding-top: 40px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  font-size: 38px; }
